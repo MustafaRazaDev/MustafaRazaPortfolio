@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Electrolize&family=Inter:wght@300&family=Kanit:wght@300&family=La+Belle+Aurore&family=Merienda+One&family=Roboto:wght@500&display=swap");
+.Navbar {
+  background-color: #10153edb;
+  flex-direction: row;
+  position: absolute;
+  padding: 0% 5%;
+  display: flex;
+  color: #fff;
+  height: 10vh;
+  width: 90%;
+  top: 0;
+}
+.WebLogo {
+  font-family: "Merienda One", cursive;
+}
+.links {
+  flex-direction: row;
+  display: flex;
+  width: 80%;
+}
+.links h1{
+  font-family: "Kanit", sans-serif;
+  font-weight: lighter;
+  font-size: 2.4vh;
+  margin-left: 4%;
+  text-align: right;
+}
+.HomePage {
+  background-image: url("https://cutewallpaper.org/cdn-cgi/mirage/2af0adefb1b7ebf6af3b94bf8b86378693ec8b55d34af727ac0cbb58dfd044f5/1280/21/ethereum-wallpapers/Ethwallpaper-Make-any-wallpaper-into-an-EthWallpaper.jpg");
+}
+.HomeSection {
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: row;
+  padding: 15% 20%;
+  display: flex;
+  height: 80vh;
+}
+.WebIntro {
+  font-family: "Electrolize", sans-serif;
+  background-color: #10153edb;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  font-size: medium;
+  border-radius: 1%;
+  text-align: center;
+  padding: 3vh 5vh;
+  display: flex;
+  color: #fff;
+  height: 45vh;
+  width: 40%;
+}
+.WebWorkLogo {
+  margin-top: 5%;
+  height: 40vh;
+  width: auto;
+}
+.OrderButton {
+  background-image: linear-gradient(180deg, #366ab0 0%, #061844 100%);
+  font-family: "Alegreya ", sans-serif !important;
+  text-transform: none !important;
+  font-size: 2.8vh !important;
+  width: 50%;
+}
